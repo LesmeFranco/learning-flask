@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Filters Example{% endblock %}
+
+{% block content %}
+<h1> Filtros en Jinja2</h1>
+<p> Ejemplo de uso de filtros en Jinja2</p>
+<p>{{ some_text | capitalize }}</p>
+<p>{{ some_text | lower }}</p>
+<p>{{ some_text | upper }}</p>
+<p>{{ some_text | title }}</p>
+<p>{{ some_text | trim }}</p>
+<p>{{ some_text | striptags }}</p>
+{% endblock %}

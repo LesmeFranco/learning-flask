@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %} To-do {% endblock %}
+
+{% block content %}
+<h1>To-Do</h1>
+<ul>
+    {% for todo in todos %}
+    <li>{{ todo }}</li>
+    {% endfor %}
+</ul>
+<a href="{{ url_for('todos.create') }}">Create To-Do</a>
+{% endblock %}

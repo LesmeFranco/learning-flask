@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Index Page{% endblock %}
+
+{% block content %}
+<h1> Bienvendidos A Flask</h1>
+<p>{{ myvalue }}</p>
+<p>{{ myresult }}</p>
+<ul>
+    {% for item in mylist %}
+    <li>{{ item }}</li>
+    {% endfor %}
+</ul>
+
+<a href="{{ url_for('contact') }}">Contact</a>
+{% endblock %}
