@@ -124,7 +124,7 @@ UserAuthetication/
 3. Inicia el entorno virtual e instala las dependencias
 
    ```pwsh
-   #en Windows:
+   # En Windows:
    .venv\Scripts\activate
    # Dentro del entorno
    pip install flask flask_sqlalchemy flask_migrate flask_bootstrap
