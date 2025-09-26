@@ -127,7 +127,7 @@ UserAuthetication/
    # En Windows:
    .venv\Scripts\activate
    # Dentro del entorno
-   pip install flask flask_sqlalchemy flask_migrate flask_bootstrap
+   pip install flask flask_sqlalchemy flask_bcrypt flask_migrate flask_login
    ```
 
 4. Ejecuta los ejemplos de la carpeta correspondiente:
